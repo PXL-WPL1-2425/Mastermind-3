@@ -4,13 +4,13 @@ In deze sprint gaan we de finale versie opleveren van ons spel. Hiervoor moeten 
 
 **Spelverloop:**
 
-- Vraag stellen om nog een speler toe te voegen
-- Na het einde van het spel, de volgende speler laten spelen. De messagebox na einde spel (WINNER of FAILED) uitbreiden om de naam van de volgende speler tonen.
-- Per speler een rectangle tonen met met zijn/haar score.
-- Achtergrondkleur aanpassen voor actieve speler.
-- Hint kopen
-- Tooltip tonen
+- Momenteel kan het spel maar door 1 speler gespeeld worden. We gaan dit uitbreiden door de mogelijkheid te voorzien om meerdere spelernamen toe te voegen.
+- Wanneer een speler zijn/haar spel beëindigd heeft wordt een berichtvenster getoond. Hierin gaan we nu ook de naam van de volgende speler tonen.
+- Om nog duidelijker te maken wie aan het spelen is gaan we naast de score ook de naam van de huidige speler tonen.
+- Om de speler de mogelijkheid te geven om te code te kunnen raden binnen het maximaal aantal pogingen gaan we de mogelijkheid geven om hints te kopen.
+- In de historiek opbouw gaan we een tooltip tonen die meer info toont over de kleur waarover gehovered wordt.
 
+Gebruik de namen die voorzien zijn in de functionele vereisten, maar **zorg ervoor dat je de naming conventions hierop toepast**!
 
 ### Functionele vereisten
 
@@ -23,3 +23,17 @@ In deze sprint gaan we de finale versie opleveren van ons spel. Hiervoor moeten 
 | Mastermind-16 | Tooltip | Wanneer een speler een gok heeft gewaagd wordt hiervan feedback gegeven in de vorm van een witte of rode rand (zie Mastermind-05). Om het voor de speler duidelijker te maken gaan we een tooltip voorzien. Voorzie onderstaande teksten:<br>witte rand: "Juiste kleur, foute positie"<br>rode rand: "Juiste kleur, juiste positie"<br>geen kleur: "Foute kleur" |
 | Extra-01 | Meer kleuren | Momenteel is het voorzien om met 4 kleuren te spelen. Breid je spel uit zodat de speler de keuze heeft tussen 4, 5 of 6 kleuren. |
 | Extra-02 | Actieve speler | Breid Mastermind-14 uit zodat je voor elke speler een label voorziet. Alle labels zijn constant zichtbaar, dus ook van de spelers die hun spel al beëindigd hebben. Voor de actieve speler voorzie je een andere achtergrondkleur. ![](./media/image3.png) |
+
+## Aanpak en tips
+
+### Stappenplan
+
+-   Analyseer grondig wat er geprogrammeerd moet worden en hoe je dat gaat doen.
+-   Probeer te achterhalen wat het moeilijkste deel van de oefening is.
+-   Programmeer het spel in Visual Studio.
+-   Test het spel om te zien of het in alle omstandigheden werkt.
+-   Zorg ervoor dat je code mooi gestructureerd is (vb. gebruik zinvolle namen voor variabelen).
+
+### Programmeertips
+
+-   Maak gebruik van methods om je code overzichtelijk en beheersbaar te houden!
